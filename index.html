@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<script type="text/javascript" src="/fool.js"></script>
+<title>环球永久发布页</title>
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	background: rgb(29, 30, 34);
+}
+
+.contain{
+height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.pixel {
+overflow: hidden;
+  color: transparent;
+  background-color: transparent;
+  background: url("https://live.staticflickr.com/65535/52575631966_8efb971b42_o.gif") no-repeat 50% 0;
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3rem;
+  font-family: "Varela", sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  width: 100%;
+  flex: 0 0 auto;
+  text-align: center;
+  filter: sepia(1) brightness(2);
+  -webkit-filter: sepia(1) brightness(2);
+      }
+.pixel2{
+flex: 0 0 100%;
+  text-align: center;
+}
+.pixel2 button {
+  border: none;
+  padding: 0.8em 2.5em;
+  outline: none;
+  color: white;
+  font-style: 1.2em;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.pixel2 button:before,
+.pixel2 button:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10em;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 105%;
+  height: 105%;
+  content: "";
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+.pixel2 button:before {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-animation: pulse 10s infinite ease;
+  animation: pulse 10s infinite ease;
+}
+
+.pixel2 button:after {
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px);
+}
+
+.pixel2 button:hover:before {
+  width: 115%;
+  height: 115%;
+}
+</style>
+</head>
+<body>
+<div class="contain">
+<div class="all">
+<div class="box">
+<div class="pixel"><p>AVE影片</p></div>
+<div class="pixel2"><button onclick="shut1();">go</button></div>
+</div>
+<div class="box">
+<div class="pixel"><p>摇摇乐影院</p></div>
+<div class="pixel2"><button onclick="shut2();">go</button></div>
+</div>
+</div>
+</div>
+  </body>
+</html>
