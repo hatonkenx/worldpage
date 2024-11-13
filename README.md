@@ -1,3 +1,3 @@
-环球永久发布页
+環球永久發布頁
 
-发布页#1 https://hatonkenx.github.io/worldpage
+發布頁#1 https://hatonkenx.github.io/worldpage
