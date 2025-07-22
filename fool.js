@@ -32,7 +32,7 @@ function _0x21d3() {
         'fgateway.website/',
         '3261078vwiBpj',
         '3625026HkqNaZ',
-        'https://hu',1
+        'https://hu',
         '70282wCmJrj',
         '442409PlPIBA',
         '8wzZkPr',
